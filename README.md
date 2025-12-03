@@ -28,7 +28,8 @@ Senors har fyra pinnar vilkt är följande:
 #### Hur den funkar
 I sensor finns ett chip som mäter just luftfuktighet och temperatur, genom Data pinnen i sensorn skickas värderna  till NodeMCU och skickar vidare den seriala datan till
 Ardunio eller annan applaikation genom USB.
-
+ 
+ <img width="400" height="200" alt="MultiAxis" src="https://github.com/user-attachments/assets/1b74b85f-b9c3-4baa-bc2c-b6025061ee7a" />
 
 
 
