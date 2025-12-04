@@ -43,6 +43,6 @@ Vi tänker använda oss av en multi axis Line chart för att kunna se temp och l
 
  <img width="400" height="200" alt="MultiAxis" src="https://github.com/user-attachments/assets/1b74b85f-b9c3-4baa-bc2c-b6025061ee7a" />
 
- ## Förväntade reslutat 
+ ## Förväntade reslutat och nytta
 
-
+Vi förväntar oss att kunna mäta temperatur och luftfuktighet och den perioden som färger torkar. Genom att se hur lång tid vårt test tar och var reslutatet blir av  den torkade färgen. Kan kunskapen göra nytta för yrkesverksamma.  
