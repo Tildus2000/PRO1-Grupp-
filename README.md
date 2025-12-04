@@ -17,8 +17,6 @@ Bosse 63år som har varit målare de senaste 40 åren ska måla om väggar i sin
 Detta vill Bosse såklart undvika och därför är han tacksam att han har sin luftighetsmätare där han kan kontrollera luften innan har börjar måla och hur den beteer sig under torkningsfasen, då kan han enkelt sätta in ett element, samt ventlation för att skapa den optimala miljön. 
 
 
-## Beskrivning av system
-
 ## Sensor DHT11
 Vi kommer använda en DHT11 sensor vilket mäter temperatur och luftfuktighet
 Senors har fyra pinnar vilkt är följande:
@@ -30,6 +28,13 @@ Senors har fyra pinnar vilkt är följande:
 #### Hur den funkar
 I sensor finns ett chip som mäter just luftfuktighet och temperatur, genom Data pinnen i sensorn skickas värderna  till NodeMCU och skickar vidare den seriala datan till
 Ardunio eller annan applaikation genom USB.
+
+## Beskrivning av system
+
+pulisvio - alla komponenter 
+arudino - koden
+Wifi
+powerbank
 
 ## Material och utförande av test 
 -	En plastlåda men små hål i – inte för mycket ventilation. 
