@@ -59,4 +59,4 @@ Vi tänker använda oss av en multi axis Line chart för att kunna se temp och l
 
  ## Förväntade reslutat och nytta
 
-Vi förväntar oss att kunna mäta temperatur och luftfuktighet och den perioden som färger torkar. Genom att se hur lång tid vårt test tar och var reslutatet blir av  den torkade färgen. Kan kunskapen göra nytta för yrkesverksamma.  
+Om prototypen fungerar som planerat, förväntar vi oss kunna uppnå syftet med projektet: att skapa en mätare som kan mäta både fukt och temperatur inom olika ytor inomhus. Genom att se vilka resultat vi får från olika ytor, fukt (%) och temperatur (°C), och jämföra dessa med de optimala förhållanden för att färgen ska täcka, kommer prototypen inte bara ge information om rummet utan även kunna rekommendera rätt produkt. Lyckas vi räknat vi även med att både den, såväl som informationen vi samlat in, kan vara av nytta för yrkesverksamma målare.
