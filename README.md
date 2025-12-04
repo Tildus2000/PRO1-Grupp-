@@ -46,11 +46,16 @@ Ardunio eller annan applaikation genom USB.
 
 
 ## Material och utförande av test 
--	En plastlåda men små hål i – inte för mycket ventilation. 
--  Ca 4 msk med ljummet vatten i en lite skål, för att skapa fukt 
--	Ställa lådan på golvet där det är kallare 
--	Spackla en kartongbit/ en bit gipsskiva för att efterlikna en vägg ca 5x5cm
--	Måla tunt lager akrylfärg för att efterlikna väggfärg
+  ### För att kunna utföra testet så användes följande: 
+  
+-	En plastlåda med några små hål i – tillräckliga för viss ventilation men inte för många.
+-	Spackla en bit kartong eller en liten bit gipsskiva (ca 5 × 5 cm) för att efterlikna en väggyta.
+-	Måla ytan med ett tunt lager akrylfärg för att simulera vanlig väggfärg.
+- En liten skål med cirka 4 msk ljummet vatten, placerad i lådan för att skapa fukt.
+-	Ställ plastlådan på golvet där temperaturen är lägre.
+-	Lägg sensorn i lådan - kopplad till en eluttag
+-	Mäta och analysera datan som visas på webbsidan
+
 
 ## Visualisering
 Vi tänker använda oss av en multi axis Line chart för att kunna se temp och luftfuktighet över tid. Detta för att realsitiskt se hur lång tid de tar för färgen att torka.
