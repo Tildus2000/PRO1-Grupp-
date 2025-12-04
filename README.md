@@ -31,10 +31,17 @@ Ardunio eller annan applaikation genom USB.
 
 ## Beskrivning av system
 
-pulisvio - alla komponenter 
-arudino - koden
-Wifi
-powerbank
+* pulisvio - alla komponenter 
+* arudino - koden
+* Wifi
+* powerbank
+  
+<img width="200" height="200" alt="pulsivobild" src="https://github.com/user-attachments/assets/a9d7441c-e17a-4a52-993a-ee900038cbc2" />
+
+<img width="200" height="200" alt="dht11" src="https://github.com/user-attachments/assets/0b6f9938-eacd-4f37-8b72-ed660294fd24" />
+
+
+
 
 ## Material och utförande av test 
 -	En plastlåda men små hål i – inte för mycket ventilation. 
