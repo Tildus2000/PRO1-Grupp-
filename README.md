@@ -1,7 +1,7 @@
 # PRO1 Grupp 1 Luftfuktightesmätare
 
 ## Syfte:
-Testa luftfuktigheten för att se hur akrylfärg torkad i fuktig miljö 
+Syftet är att genom en luftfukthets mätare undersöka akrylfärg torkad i sval och fuktig miljö 
 
 ## Analys av användare och kontext:
 Våra användare är byggmålare och i detta fall målar inomhus. 
