@@ -43,4 +43,6 @@ Vi tänker använda oss av en multi axis Line chart för att kunna se temp och l
 
  <img width="400" height="200" alt="MultiAxis" src="https://github.com/user-attachments/assets/1b74b85f-b9c3-4baa-bc2c-b6025061ee7a" />
 
+ ## Förväntade reslutat 
+
 
