@@ -3,18 +3,20 @@
 ## Syfte:
 Syftet är att skapa en luftfuktighetsmätare som kan mäta fukt och temp i ett rum som ska målas för att kunna göra miljön så optimalt som möjligt för väggfärg.
 
-## Analys av användare och kontext:
-Våra användare är byggmålare och som i detta fall målar inomhus. 
-Källare har ofta inte samma isolering eller värme som resterande delar av ett hus, det är även vanligt med ökad luftfutkighet i dessa ytor. Temperatur och luftfuktighet har stor inverkarn på hur lång tid det tar för väggfärg att torka samt hur den torkar. Exempelivs ytor med högluftfuktighet torkar långsammare, som yrkesamm målare med deadlines vill man att torkniningsproccessen ska gå så snabbt som möjligt samt att resulatet ska bli så bra som möjligt.
-Genom en DHT11 sensor kan målare få viktigt infromation som avögr hur de ska göra för att uppnå bästa resultat, exemeplivs om rummet behöver element för att höja värmen, eller ventlation för att ändra luftfuktighetetn. Detta för att göra miljön så optimal som möjligt.
-
-En väggfärg från Alcro som är ett vanligt märke inom målarbranchen, fungerar optimalt i 23 garder celcius och 50% luftfuktighet. Då är färgen klibbfri inom 50 minuter och övermålningsbar inom 2 timmar. 
+## Användare och kontext:
+*  Vi har utgått från grupp 2 idé men valt ett annat område där en luftfuktighets sensor skulle kunna göra nytta.
+*  Våra användare är byggmålare och som målar utrymmen med hög luffuktighet och lägre temperatur såsom i en källare.
+*  Källare har ofta inte samma isolering eller värme som resterande delar av ett hus, det är även vanligt med ökad luftfutkighet på dessa ytor.
+*  Temperatur och luftfuktighet har stor inverkarn på hur lång tid det tar för väggfärg att torka samt hur den torkar. Väggfärg från Alcro som är ett vanligt märke inom målarbranchen, fungerar optimalt i 23 garder celcius och 50% luftfuktighet. Då är färgen klibbfri inom 50 minuter och övermålningsbar inom 2 timmar. 
+*  Genom en luftfuktighets sensor kan målare få användbar information och kunskap som avögr hur de ska göra för att få bästa resultat.
 
 #### Scenario:
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/470969d9-9b8e-43c5-a075-3d0831aec2f6" />
 
-Bosse 63år som har varit målare de senaste 40 åren ska måla om väggar i sin egna hemverkstad som ligger i källaren. Han har monterat ner hyllor och flyttat på verktyg som nu ligger och tar plats i hallen vilket gör frugan sur. Han vill så fort som möjligt bli klar och få tillbaka friden i hemmet. Han vet att Alcro väggfärg trivs och blir som bäst i rumstemperatur och med en relativ luftfuktighet på 40-60% dock är de betydligt svalare och högre luftfuktighet i källaren, vilket kommer gör att de tar längre tid för färgen att torka samt resluterar i ojämn torkning och ett ojämnt fulare reslutat. 
-Detta vill Bosse såklart undvika och därför är han tacksam att han har sin luftighetsmätare där han kan kontrollera luften innan har börjar måla och hur den beteer sig under torkningsfasen, då kan han enkelt sätta in ett element, samt ventlation för att skapa den optimala miljön. 
+Bosse 63 år har varit målare de senaste 40 åren, han ska måla om en vägg i sin egna hemverkstad som ligger i källaren. Han har monterat ner hyllor och flyttat på verktyg som nu ligger och tar plats i hallen, vilket gör frugan sur. Han vill så fort som möjligt bli klar och få tillbaka friden i hemmet. 
+Han vet att Alcro väggfärg trivs och blir som bäst i rumstemperatur och med en relativ luftfuktighet på 40-60%.
+Dock är de betydligt svalare och högre luftfuktighet i källaren, vilket kommer gör att de tar längre tid för färgen att torka och torkningen blir ojämn.
+Detta vill Bosse såklart undvika, om han hade en luftfuktighetsmätare skulle kan kunna kontrollera luften under torkningsfasen. Genom att exempelvis sätta in ett element, samt avfuktare för att skapa en optimal miljö.
 
 
 ## Sensor DHT11
