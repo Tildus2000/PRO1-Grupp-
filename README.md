@@ -11,7 +11,7 @@ Genom en DHT11 sensor kan målare få viktigt infromation som avögr hur de ska 
 En väggfärg från Alcro som är ett vanligt märke inom målarbranchen, fungerar optimalt i 23 garder celcius och 50% luftfuktighet. Då är färgen klibbfri inom 50 minuter och övermålningsbar inom 2 timmar. 
 
 #### Scenario:
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/470969d9-9b8e-43c5-a075-3d0831aec2f6" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/470969d9-9b8e-43c5-a075-3d0831aec2f6" />
 
 Bosse 63år som har varit målare de senaste 40 åren ska måla om väggar i sin egna hemverkstad som ligger i källaren. Han har monterat ner hyllor och flyttat på verktyg som nu ligger och tar plats i hallen vilket gör frugan sur. Han vill så fort som möjligt bli klar och få tillbaka friden i hemmet. Han vet att Alcro väggfärg trivs och blir som bäst i rumstemperatur och med en relativ luftfuktighet på 40-60% dock är de betydligt svalare och högre luftfuktighet i källaren, vilket kommer gör att de tar längre tid för färgen att torka samt resluterar i ojämn torkning och ett ojämnt fulare reslutat. 
 Detta vill Bosse såklart undvika och därför är han tacksam att han har sin luftighetsmätare där han kan kontrollera luften innan har börjar måla och hur den beteer sig under torkningsfasen, då kan han enkelt sätta in ett element, samt ventlation för att skapa den optimala miljön. 
