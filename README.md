@@ -29,7 +29,7 @@ Senors har fyra pinnar vilkt är följande:
 I sensor finns ett chip som mäter just luftfuktighet och temperatur, genom Data pinnen i sensorn skickas värderna  till NodeMCU och skickar vidare den seriala datan till
 Ardunio eller annan applaikation genom USB.
 
-## Material och utförande av test
+## Material och utförande av test 
 -	En plastlåda men små hål i – inte för mycket ventilation. 
 -  Ca 4 msk med ljummet vatten i en lite skål, för att skapa fukt 
 -	Ställa lådan på golvet där det är kallare 
@@ -40,4 +40,5 @@ Ardunio eller annan applaikation genom USB.
 Vi tänker använda oss av en multi axis Line chart för att kunna se temp och luftfuktighet över tid. Detta för att realsitiskt se hur lång tid de tar för färgen att torka.
 
  <img width="400" height="200" alt="MultiAxis" src="https://github.com/user-attachments/assets/1b74b85f-b9c3-4baa-bc2c-b6025061ee7a" />
+
 
