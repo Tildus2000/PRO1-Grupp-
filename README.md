@@ -1,7 +1,7 @@
 # PRO Bosse
 
 ## Syfte:
-Syftet är att skapa en luftfuktighetsmätare som kan mäta fukt och temp i ett rum som ska målas för att kunna göra miljön så optimalt som möjligt för väggfärg.
+Syftet med projektet är att skapa en luftfuktighetsmätare som kan mäta fukt och temperatur i olika rum och miljöer. Detta för att kunna appliceras inom yrken som skulle ha användning av sådant, till exempel inom måleri där både fukt och temperatur är avgörande faktorer i väggfärgers slutresultat och för yrkesverksamhet att kunna avgöra vilken typ av färg som är bäst fungerande.
 
 ## Användare och kontext:
 *  Vi har utgått från grupp 2 idé men valt ett annat område där en luftfuktighets sensor skulle kunna göra nytta.
