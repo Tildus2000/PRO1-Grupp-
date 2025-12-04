@@ -1,4 +1,4 @@
-# PRO1 Grupp 1 Luftfuktightesmätare
+# PRO Bosse
 
 ## Syfte:
 Syftet är att skapa en luftfuktighetsmätare som kan mäta fukt och temp i ett rum som ska målas för att kunna göra miljön så optimalt som möjligt för väggfärg.
@@ -6,7 +6,7 @@ Syftet är att skapa en luftfuktighetsmätare som kan mäta fukt och temp i ett 
 ## Analys av användare och kontext:
 Våra användare är byggmålare och som i detta fall målar inomhus. 
 Källare har ofta inte samma isolering eller värme som resterande delar av ett hus, det är även vanligt med ökad luftfutkighet i dessa ytor. Temperatur och luftfuktighet har stor inverkarn på hur lång tid det tar för väggfärg att torka samt hur den torkar. Exempelivs ytor med högluftfuktighet torkar långsammare, som yrkesamm målare med deadlines vill man att torkniningsproccessen ska gå så snabbt som möjligt samt att resulatet ska bli så bra som möjligt.
-Genom en DHT11 sensaor kan målare få viktigt infromation som avögr hur de ska göra för att uppnå bästa resultat, exemeplivs om rummet behöver element för att höja värmen, eller ventlation för att ändra luftfuktighetetn. Detta för att göra miljön så optimal som möjligt.
+Genom en DHT11 sensor kan målare få viktigt infromation som avögr hur de ska göra för att uppnå bästa resultat, exemeplivs om rummet behöver element för att höja värmen, eller ventlation för att ändra luftfuktighetetn. Detta för att göra miljön så optimal som möjligt.
 
 En väggfärg från Alcro som är ett vanligt märke inom målarbranchen, fungerar optimalt i 23 garder celcius och 50% luftfuktighet. Då är färgen klibbfri inom 50 minuter och övermålningsbar inom 2 timmar. 
 
