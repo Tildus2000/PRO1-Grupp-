@@ -1,7 +1,7 @@
 # PRO1 Grupp 1 Luftfuktightesmätare
 
 ## Syfte:
-Syftet är att skapa en luftfuktighetsmätare som kan mäta fukt och temp i ett rum som är svalt och fuktigt, där det ska målas för att kunna göra miljön så optimalt som möjligt för väggfärg.
+Syftet är att skapa en luftfuktighetsmätare som kan mäta fukt och temp i ett rum som ska målas för att kunna göra miljön så optimalt som möjligt för väggfärg.
 
 ## Analys av användare och kontext:
 Våra användare är byggmålare och som i detta fall målar inomhus. 
