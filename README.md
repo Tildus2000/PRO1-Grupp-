@@ -24,14 +24,14 @@ Detta vill Bosse såklart undvika, om han hade en luftfuktighetsmätare skulle k
 
 Vi kommer använda en DHT11 sensor vilket mäter temperatur och luftfuktighet
 Senors har fyra pinnar vilkt är följande:
-1. VCC - mäter ström i vårt fall använder vi en microcontroller NodeMCU ESP8266 som klara 3,3 volt
-2. Data - som skickas till microcontorller och vidare till Arduino IDE
+1. VCC - från in 3,3 volt
+2. Data - skickas till microcontorller 
 3. NC (not connected)- används ej
-4. GND - Elektrisk krets går ut genom GND pinnen och tillbaka till microcontorller
+4. GND - Jord pinne- Elektrisk krets
 
 #### Hur den funkar
 I sensor finns ett chip som mäter just luftfuktighet och temperatur, genom Data pinnen i sensorn skickas värderna  till NodeMCU och skickar vidare den seriala datan till
-Ardunio eller annan applaikation genom USB.
+Ardunio eller annan applaikation genom WIFI
 
 ## Beskrivning av system
 
@@ -51,7 +51,41 @@ För att vårt projekt ska fungera krävs det flera tekniska delar och det bidra
 
 **Arduino-koden**
 
-- Programmet som styrsystemet: läser sensordata, bearbetar den och skickar den vidare. 
+- Programmet som styr systemet: läser sensordata, bearbetar den och skickar den vidare.
+- Dett är koden
+
+```
+#include <SimpleDHT.h>
+const int dht_pin = 13;   // GPIO13 = D7 på NodeMCU/ESP8266
+
+SimpleDHT11 dht11;
+
+void setup() 
+{
+  //start the Serial communication at 9600 bits/s
+  Serial.begin(9600);
+}
+
+void loop() 
+{
+  byte temperature = 0;
+  byte humidity = 0;
+
+  dht11.read(dht_pin, &temperature, &humidity, NULL);
+
+  //values in Serial Monitor
+  Serial.print("Temperature: ");
+  Serial.print(temperature); 
+  Serial.println(" *C");
+  Serial.print("Humidity: "); 
+  Serial.print(humidity); 
+  Serial.println(" H");
+  Serial.println();
+  
+  //wait 2 s
+  delay(2000);
+}
+```
 
 **WiFi (ESP8266)** 
 
