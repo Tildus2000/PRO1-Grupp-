@@ -70,6 +70,8 @@ Ger ström så att systemet kan användas helt fristående, utan vägguttag, ell
 
 
 ## Material och utförande av test 
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/008b7a7c-dc97-43fc-9a6d-c24fe0aff2f7" />
+
 -	En plastlåda men små hål i – inte för mycket ventilation. 
 - Ca 4 msk med ljummet vatten i en lite skål, för att skapa fukt 
 -	Ställa lådan på golvet där det är kallare 
