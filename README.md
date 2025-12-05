@@ -75,7 +75,7 @@ Ger ström så att systemet kan användas helt fristående, utan vägguttag, ell
 -	En plastlåda men små hål i – inte för mycket ventilation. 
 - Ca 4 msk med ljummet vatten i en lite skål, för att skapa fukt 
 -	Ställa lådan på golvet där det är kallare 
--	Spackla en kartongbit/ en bit gipsskiva för att efterlikna en vägg ca 5x5cm
+-	Spackla en kartongbit/ en bit gipsskiva för att efterlikna en vägg som  kommer vara ca 5x5cm
 -	Måla tunt lager akrylfärg för att efterlikna väggfärg
 
 ## Visualisering
