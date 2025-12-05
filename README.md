@@ -20,6 +20,8 @@ Detta vill Bosse såklart undvika, om han hade en luftfuktighetsmätare skulle k
 
 
 ## Sensor DHT11
+<img width="287" height="318" alt="sensor" src="https://github.com/user-attachments/assets/198f7cd4-0dbc-4d1c-b48c-ad166967d890" />
+
 Vi kommer använda en DHT11 sensor vilket mäter temperatur och luftfuktighet
 Senors har fyra pinnar vilkt är följande:
 1. VCC - mäter ström i vårt fall använder vi en microcontroller NodeMCU ESP8266 som klara 3,3 volt
@@ -69,7 +71,7 @@ Ger ström så att systemet kan användas helt fristående, utan vägguttag, ell
 
 ## Material och utförande av test 
 -	En plastlåda men små hål i – inte för mycket ventilation. 
--  Ca 4 msk med ljummet vatten i en lite skål, för att skapa fukt 
+- Ca 4 msk med ljummet vatten i en lite skål, för att skapa fukt 
 -	Ställa lådan på golvet där det är kallare 
 -	Spackla en kartongbit/ en bit gipsskiva för att efterlikna en vägg ca 5x5cm
 -	Måla tunt lager akrylfärg för att efterlikna väggfärg
