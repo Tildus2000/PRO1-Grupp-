@@ -86,3 +86,7 @@ Vi tänker använda oss av en multi axis Line chart för att kunna se temp och l
  ## Förväntade reslutat och nytta
 
 Om prototypen fungerar som planerat, förväntar vi oss kunna uppnå syftet med projektet: att skapa en mätare som kan mäta både fukt och temperatur inom olika ytor inomhus. Genom att se vilka resultat vi får från olika ytor, fukt (%) och temperatur (°C), och jämföra dessa med de optimala förhållanden för att färgen ska täcka, kommer prototypen inte bara ge information om rummet utan även kunna rekommendera rätt produkt. Lyckas vi räknar vi även med att både den, såväl som informationen vi samlat in, kan vara av nytta för yrkesverksamma målare.
+
+## Tidsplan
+
+<img width="400" height="450" alt="Tidsplan" src="https://github.com/user-attachments/assets/f9172685-bfb4-4678-be2b-6ce88ebe842e" />
