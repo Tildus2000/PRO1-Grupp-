@@ -39,27 +39,27 @@ För att vårt projekt ska fungera krävs det flera tekniska delar och det bidra
 
 **Pulisvio / Kopplingsschema**
 
-Visar hur mikrokontroller, DHT11-sensor, ström och kablar kopplas ihop korrekt. 
+- Visar hur mikrokontroller, DHT11-sensor, ström och kablar kopplas ihop korrekt. 
 
 **Alla komponenter**
 
-NodeMCU ESP8266, DHT11-sensor, Male-to-Female jumperkablar, USB-kabel, Power bank, tillsammans bildar de ett fungerande mätsystem. 
+- NodeMCU ESP8266, DHT11-sensor, Male-to-Female jumperkablar, USB-kabel, Power bank, tillsammans bildar de ett fungerande mätsystem. 
 
 **DHT11-sensor**
 
-Mäter temperatur och luftfuktighet inuti plastlådan och skickar värdena till mikrokontrollern för bearbetning.  
+- Mäter temperatur och luftfuktighet inuti plastlådan och skickar värdena till mikrokontrollern för bearbetning.  
 
 **Arduino-koden**
 
-Programmet som styrsystemet: läser sensordata, bearbetar den och skickar den vidare. 
+- Programmet som styrsystemet: läser sensordata, bearbetar den och skickar den vidare. 
 
 **WiFi (ESP8266)** 
 
-Detta gör att vi kan följa temperatur och luftfuktighet direkt medan experimentet pågår inne i plastlådan, utan att dra extra kablar. 
+- Detta gör att vi kan följa temperatur och luftfuktighet direkt medan experimentet pågår inne i plastlådan, utan att dra extra kablar. 
 
 **Powerbank** 
 
-Ger ström så att systemet kan användas helt fristående, utan vägguttag, eller utan att koppla den till en dator. 
+- Ger ström så att systemet kan användas helt fristående, utan vägguttag, eller utan att koppla den till en dator. 
 
   
 <img width="200" height="200" alt="pulsivobild" src="https://github.com/user-attachments/assets/a9d7441c-e17a-4a52-993a-ee900038cbc2" />
