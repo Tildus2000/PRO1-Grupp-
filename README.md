@@ -67,7 +67,7 @@ För att vårt projekt ska fungera krävs det flera tekniska delar och det bidra
 <img width="200" height="200" alt="dht11" src="https://github.com/user-attachments/assets/0b6f9938-eacd-4f37-8b72-ed660294fd24" />
 
 
-## Material ör att kunna utföra följande test:
+## Material för att kunna utföra följande test:
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/008b7a7c-dc97-43fc-9a6d-c24fe0aff2f7" />
   
 -	En plastlåda med några små hål i – tillräckliga för viss ventilation men inte för många.
