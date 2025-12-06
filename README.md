@@ -121,6 +121,14 @@ Vi tänker använda oss av en multi axis Line chart för att kunna se temp och l
 
 Om prototypen fungerar som planerat, förväntar vi oss kunna uppnå syftet med projektet: att skapa en mätare som kan mäta både fukt och temperatur inom olika ytor inomhus. Genom att se vilka resultat vi får från olika ytor, fukt (%) och temperatur (°C), och jämföra dessa med de optimala förhållanden för att färgen ska täcka, kommer prototypen inte bara ge information om rummet utan även kunna rekommendera rätt produkt. Lyckas vi räknar vi även med att både den, såväl som informationen vi samlat in, kan vara av nytta för yrkesverksamma målare.
 
+# Efter redovisningen 12/05 
+## HTTP
+Vi kommer ta användning av HTTP då detta projekt är relativt enkelt och så är MQTT mer avancerad för vad projektet behövs och behöver inte hantera med broker.
+Vi behöver realtiv realtid som http kan jämfört MQTT som är närmare till realtid.
+Har dessutom endast en enhet så, MQTT är bättre i senarior då man hanterar flera enheter.
+HTTP har dock en stabil koppling och är tillräcklig för denna projekt.
+
+
 ## Tidsplan
 
 <img width="400" height="450" alt="Tidsplan" src="https://github.com/user-attachments/assets/f9172685-bfb4-4678-be2b-6ce88ebe842e" />
