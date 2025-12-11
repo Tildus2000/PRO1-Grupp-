@@ -203,7 +203,7 @@ const config = {
 const ctx = document.getElementById('myChart').getContext('2d');
 const myChart = new Chart(ctx, config);
 ```
-Grafen kopplas till <canvas>-elementet och skapas med den konfiguration som definierats i Del 1.
+Grafen kopplas till <canvas>-elementet och skapas med den konfiguration som definierats. 
 
 ## Skapa tidsstämplar 🕒 
 ```CPP
