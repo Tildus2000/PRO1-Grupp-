@@ -70,13 +70,13 @@ uppdaterar grafen automatiskt
 
 4. Chart.js ritar upp grafen 
 Chart.js skapar linjerna baserat på värdena. 
- Vi använder: 
+ **Vi använder:**
 
 - Röda linje (luftfuktighet)
 
 - blå linje (temperatur) 
  
-Chart.js hanterar:
+**Chart.js hanterar:**
 * datapunkter 
 * y-axlar 
 * tid på x-axeln 
