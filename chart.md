@@ -196,3 +196,62 @@ const config = {
       },
     };
 ```
+
+
+## Skapa grafen 📊
+```CPP
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = new Chart(ctx, config);
+```
+Grafen kopplas till <canvas>-elementet och skapas med den konfiguration som definierats i Del 1.
+
+## Skapa tidsstämplar 🕒 
+```CPP
+function getTimeLabel() {
+  const now = new Date();
+  const hh = now.getHours().toString().padStart(2, '0');
+  const mm = now.getMinutes().toString().padStart(2, '0');
+  return `${hh}:${mm}`;
+}
+```
+Varje datapunkt får en tid i formatet HH:MM, som visas på X-axeln.
+
+## Lägga till nya mätvärden 🔄 
+```CPP
+async function addNewReading() {
+  try {
+    const reading = await fetchSensorData();
+    const label = getTimeLabel();
+
+    if (data.labels.length >= MAX_POINTS) {
+      data.labels.shift();
+      data.datasets[0].data.shift();
+      data.datasets[1].data.shift();
+    }
+
+    data.labels.push(label);
+    data.datasets[0].data.push(reading.humidity);
+    data.datasets[1].data.push(reading.temperature);
+
+    myChart.update();
+  } catch (err) {
+    console.error('Kunde inte hämta sensor-data:', err);
+  }
+}
+```
+
+Funktionens ansvar:
+- Hämta senaste sensorvärden
+- Skapa tidsstämpel
+Ta bort äldsta punkten om grafen är full
+Lägga till nya värden
+Uppdatera grafen visuellt
+
+## Automatisk uppdatering ⏱️
+```CPP
+addNewReading();               // Kör direkt
+setInterval(addNewReading, 10000); // Uppdaterar var 10:e sekund
+```
+Grafen håller sig uppdaterad automatiskt och visar alltid de senaste mätningarna.
+
+
