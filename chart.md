@@ -98,4 +98,101 @@ HTML-sidan innehåller JavaScript-kod som:
 4. Chart.js ritar upp grafen 
 Chart.js skapar linjerna baserat på värdena.
 
+## Hämta data från servern
+```JS
+// Hämtar SENASTE värdet från Python-servern (endpoint /sensor)
+    async function fetchSensorData() {
+      const res = await fetch('/sensor'); // samma host+port som sidan
+      if (!res.ok) {
+        throw new Error('HTTP-fel: ' + res.status);
+      }
 
+      const json = await res.json();
+
+      return {
+        humidity: json.humidity,
+        temperature: json.temperature
+      };
+    }
+```
+## Grafen
+```JS
+ const MAX_POINTS = 36; // senaste 3 timmarna (36 * 5 min)
+
+    const data = {
+      labels: [], // tidsstämplar (HH:MM)
+      datasets: [
+        {
+          label: 'Luftfuktighet (%)',
+          data: [],
+          borderColor: 'rgb(255, 99, 132)',
+          backgroundColor: 'rgba(255, 99, 132, 0.3)',
+          yAxisID: 'y',
+          tension: 0.3
+        },
+        {
+          label: 'Temperatur (°C)',
+          data: [],
+          borderColor: 'rgb(54, 162, 235)',
+          backgroundColor: 'rgba(54, 162, 235, 0.3)',
+          yAxisID: 'y1',
+          tension: 0.3
+        }
+      ]
+    };
+```
+## Specifikationer om grafen
+```JS
+const config = {
+      type: 'line',
+      data: data,
+      options: {
+        responsive: true,
+        interaction: {
+          mode: 'index',
+          intersect: false,
+        },
+        stacked: false,
+        plugins: {
+          title: {
+            display: true,
+            text: 'Luftfuktighet och temperatur - colorHue'
+          },
+          legend: {
+            display: true
+          }
+        },
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text: 'Tid'
+            }
+          },
+          y: {
+            type: 'linear',
+            display: true,
+            position: 'left',
+            title: {
+              display: true,
+              text: 'Luftfuktighet (%)'
+            },
+            suggestedMin: 0,
+            suggestedMax: 100
+          },
+          y1: {
+            type: 'linear',
+            display: true,
+            position: 'right',
+            grid: {
+              drawOnChartArea: false,
+            },
+            title: {
+              display: true,
+              text: 'Temperatur (°C)'
+            }
+          },
+        }
+      },
+    };
+```
