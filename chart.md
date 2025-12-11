@@ -41,19 +41,20 @@ ____
 
 ## Hur grafen fungerar: 
 Så här fungerar den steg för steg: 
-1. Sensorvärden mäts 
+1. Sensorvärden mäts
+   
 DHT11-sensorn registrerar: 
 
-aktuell temperatur 
-aktuell luftfuktighet 
-Dessa värden läses av av ESP8266 via kod (Arduino IDE). 
+- aktuell temperatur 
+- aktuell luftfuktighet 
+- Dessa värden läses av av ESP8266 via kod (Arduino IDE). 
 
  
 
 2. ESP8266 skickar datan via WiFi 
 ESP8266 skickar sensordatan till en webbsida. Kommunikationen sker  
 
-JSON-format, det är lätt att tolka  
+(JSON-format), det är lätt att tolka  
 Det gör att datan blir tillgänglig i realtid. 
 
  
@@ -61,15 +62,16 @@ Det gör att datan blir tillgänglig i realtid.
  3. Webbsidan tar emot datan 
 HTML-sidan innehåller JavaScript-kod som: 
 
-tar emot värdena 
-lägger till dem i grafens dataset 
-uppdaterar grafen automatiskt 
+- tar emot värdena 
+- lägger till dem i grafens dataset 
+- uppdaterar grafen automatiskt 
 (grafen utvecklas live). 
 
  
 
 4. Chart.js ritar upp grafen 
-Chart.js skapar linjerna baserat på värdena. 
+Chart.js skapar linjerna baserat på värdena.
+
  **Vi använder:**
 
 - Röda linje (luftfuktighet)
