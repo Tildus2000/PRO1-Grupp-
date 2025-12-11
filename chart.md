@@ -1,36 +1,25 @@
 # Multi Axis Line Chart
-## Visualisering Grafen
 
-I vårt projekt använder vi en linjediagram-graf för att visualisera mätvärden som byggd med Chart.js, grafen visas i webbläsaren via HTML-fil, och dem den uppdateras med data som skickas från ESP8266 mikrokontroller. Syftet med grafen är att ge ett tydligt och enkelt verktyg som hjälper användaren (Bosse) att förstå kilmatet i rummet.  
+I vårt projekt använder vi en linjediagram-graf (multi axis line chart) för att visualisera de mätvärden som vi får in av sensorn. Koden bygger på  Chart.js kod, grafen visas i webbläsaren genom vår HTML-fil, och den uppdateras med data som skickas från ESP8266 mikrokontroller. Syftet med grafen är att vara ett tydligt och enkelt verktyg som hjälper användaren (Bosse) att förstå kilmatet i rummet.  
 ___
-
-
-
- _____
 
 **Grafen är det viktigaste verktyget för att:**
 
 - snabbt förstå rumsförhållanden 
-- se om miljön behöver förbättras (avsug, ventilation, värme ... 
-- ge beslutsstöd till målaren 
+- se om miljön behöver förbättras (avfuktare, ventilation, värme)
+- Hjälpa målare att ta beslut
  
-
- 
-
- 
-
 ## Varför vi valde ett linjediagram: 
 
-- Den är tydligt Tidsutveckling, den förändras över tid och perfekt för klimatmättning.  
-- Snabbt och Lätt att förstå för användaren (Bosse), hur fuktigheten förändras, om miljön är bra för målning, om något i rummet är onormalt... 
-- Passa bra till två datalinjer: temperatur och luftfuktighet. Det går snabbt at se skillnader över tid. (enkel sturktur)..  
+- Ger tydligt tidsutveckling, den förändras över tid och perfekt för klimatmättning.  
+- Snabbt och Lätt att förstå för användaren (Bosse), hur fuktigheten förändras, om miljön är bra för målning m.m 
+- Två data linjer passar bra för att just se både temperatur och luftfuktighet. Det går snabbt at se skillnader över tid.  
 - Fokus på användarvänlighet 
  
 
- 
+## Från ESP8266 till graf
 
- 
-____
+Vi har gjort en egen HTTP server i python. 
  
 ## Grafen visar två linjer över tid och uppdaterats automatiskt när nya värden skickas från vår ESP8266.: 
 
