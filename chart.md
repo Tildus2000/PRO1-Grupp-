@@ -14,7 +14,10 @@ ___
 - Ger tydligt tidsutveckling, den förändras över tid och perfekt för klimatmättning.  
 - Snabbt och Lätt att förstå för användaren (Bosse), hur fuktigheten förändras, om miljön är bra för målning m.m 
 - Två data linjer passar bra för att just se både temperatur och luftfuktighet. Det går snabbt at se skillnader över tid.  
-- Fokus på användarvänlighet 
+- Fokus på användarvänlighet
+
+  <img width="1287" height="645" alt="graf" src="https://github.com/user-attachments/assets/eea873cd-9de3-44b4-a0c8-b359443180de" />
+
  
 
 ## Från ESP8266 till graf
