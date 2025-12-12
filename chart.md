@@ -22,10 +22,10 @@ ___
 
 ## Från ESP8266 till graf
 
-- Vi skapade en server i python  använder HTTP-protokoll för att kommunicera med Arduino (klinet) 
-- Arduino skickar temperatur och luftfuk enhetsdata vis ESP8266 som en HTTP-POST förfrågan till servern
+- Vi skapade en server i python som använder HTTP-protokoll för att kommunicera med Arduino (klinet) 
+- Arduino skickar temperatur och luftfuktighetsdata via ESP8266 som en HTTP-POST förfrågan till servern
 - Vår server tar emot datan och sparar den i en CSV-fil där alla data och mätningar över tid sparas.
-- När vi öppnar webbläsaren gör en HTTP-GET förfrågan för att hämta HTML-sidan och sensordata. 
+- När vi öppnar webbläsaren görs en HTTP-GET förfrågan för att hämta HTML-sidan och sensordata. 
 - Servern svara då med JSON-objekt, vilket ger ett dataformat som är enkelt att läsa för oss och webbsidan
 - Javascript som vi har använt för att skapa grafen läser in Jason datan och ritar då upp grafen med värden i realtid.
 
@@ -49,17 +49,12 @@ CSV_FILENAME = "sensor_data.csv"
 - serve_forever() gör att servern står och lyssnar hela tiden.
 
  
-## Grafen visar två linjer över tid och uppdaterats automatiskt när nya värden skickas från vår ESP8266.: 
+## Grafen visar två linjer över tid och uppdaterats automatiskt: 
 
-**En temperatur(c)** denna blå linje: om temperaturen är stabil, om rummet är kalt/varmt och hur temperaturen förändras över tid.  
+**Temperatur(c)** denna blå linje: visar om temperaturen är stabil, om rummet är kalt/varmt och hur temperaturen förändras över tid.  
 
-**En luftfuktighet(%)** denna röd linje: om luftfuktighet har sjunkit till rätt nivå, den förändras långsam eller snabbt.  
-
- **Vi använder:**
-
-- Röda linje (luftfuktighet)
-
-- blå linje (temperatur) 
+**Luftfuktighet(%)** denna röd linje: Visar om luftfuktighet har sjunkit till rätt nivå, om den förändras långsam eller snabbt.  
+ 
  
 ## Hur grafen fungerar: 
 Så här fungerar den steg för steg: 
