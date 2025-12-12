@@ -61,13 +61,6 @@ CSV_FILENAME = "sensor_data.csv"
 
 - blå linje (temperatur) 
  
-**Chart.js hanterar:**
-* datapunkter 
-* y-axlar 
-* tid på x-axeln 
-* animationer 
- 
-
 ## Hur grafen fungerar: 
 Så här fungerar den steg för steg: 
 1. Sensorvärden mäts
@@ -92,11 +85,8 @@ HTML-sidan innehåller JavaScript-kod som:
 - tar emot värdena 
 - lägger till dem i grafens dataset 
 - uppdaterar grafen automatiskt 
-(grafen utvecklas live). 
+(grafen utvecklas live).
 
-
-4. Chart.js ritar upp grafen 
-Chart.js skapar linjerna baserat på värdena.
 
 ## Hämta data från servern
 ```JS
