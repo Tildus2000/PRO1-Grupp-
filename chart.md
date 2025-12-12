@@ -1,7 +1,6 @@
 # Multi Axis Line Chart
 
 I vårt projekt använder vi en linjediagram-graf (multi axis line chart) för att visualisera de mätvärden som vi får in av sensorn. Koden bygger på  Chart.js kod, grafen visas i webbläsaren genom vår HTML-fil, och den uppdateras med data som skickas från ESP8266 mikrokontroller. Syftet med grafen är att vara ett tydligt och enkelt verktyg som hjälper användaren (Bosse) att förstå kilmatet i rummet.  
-___
 
 **Grafen är det viktigaste verktyget för att:**
 
@@ -47,40 +46,6 @@ CSV_FILENAME = "sensor_data.csv"
 - Startar själva HTTP-servern.
 - Använder Sensor Handler för att hantera alla GET- och POST-anrop.
 - serve_forever() gör att servern står och lyssnar hela tiden.
-
- 
-## Grafen visar två linjer över tid och uppdaterats automatiskt: 
-
-**Temperatur(c)** denna blå linje: visar om temperaturen är stabil, om rummet är kalt/varmt och hur temperaturen förändras över tid.  
-
-**Luftfuktighet(%)** denna röd linje: Visar om luftfuktighet har sjunkit till rätt nivå, om den förändras långsam eller snabbt.  
- 
- 
-## Hur grafen fungerar: 
-Så här fungerar den steg för steg: 
-1. Sensorvärden mäts
-   
-DHT11-sensorn registrerar: 
-
-- aktuell temperatur 
-- aktuell luftfuktighet 
-- Dessa värden läses av av ESP8266 via kod (Arduino IDE). 
-
-
-2. ESP8266 skickar datan via WiFi 
-ESP8266 skickar sensordatan till en webbsida. Kommunikationen sker  
-
-(JSON-format), det är lätt att tolka  
-Det gör att datan blir tillgänglig i realtid. 
-
- 
- 3. Webbsidan tar emot datan 
-HTML-sidan innehåller JavaScript-kod som: 
-
-- tar emot värdena 
-- lägger till dem i grafens dataset 
-- uppdaterar grafen automatiskt 
-(grafen utvecklas live).
 
 
 ## Hämta data från servern
