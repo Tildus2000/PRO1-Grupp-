@@ -1,4 +1,4 @@
-#PRO ColorHue
+# PRO ColorHue
 
 ## Syfte:
 Syftet med projektet är att skapa en luftfuktighetsmätare som kan mäta relativ fukt och temperatur i olika rum och miljöer. Detta för att kunna appliceras inom yrken som skulle ha användning av sådant, till exempel inom måleri där både fukt och temperatur är avgörande faktorer i väggfärgers slutresultat och för yrkesverksamhet att kunna avgöra vilken typ av färg som är bäst fungerande.
