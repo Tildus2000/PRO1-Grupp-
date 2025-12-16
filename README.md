@@ -26,16 +26,19 @@ DHT11 → ESP8266 (Arduino/C++) → HTTP → Python-server → CSV → HTTP → 
 | Jumper wires | 3 | Koppling |
 | USB-kabel (USB-C) | 1 | För flashning och ström |
 
+Så här ska DHT11 och ESP8266 vara kopplad: *bild*
+
 ---
 
 ## Steg 1 – Firmware (ESP8266)
+
+För att kunna koppla ESP8266 till WiFi behöver du ett nätverk som ger 2.4 GHz (2G). En annan modell/ nyare micro controller kan klara 5G)
 
 1. Öppna firmware-koden i Arduino IDE
 2. Uppdatera följande värden i koden:
    - WiFi SSID
    - WiFi-lösenord
-   - Serverns IP-adress och port ( kan få fram IP genom att köra `ipconfig getifaddr en0` i terminalen)
-3. Välj rätt board ( Generic ESP8266 module) & port (den som kommer upp när du kopplar ESP8266 till din dator)
+   - Serverns IP-adress och port ( kan få fram IP genom att köra `ipconfig getifaddr en0` i terminalen , porten defineras i serverkoden samt syns i trminalen när man startar servern)
 4. Ladda upp koden till mikrokontrollern
 5. Öppna serial monitor för att se att ESP8266 är kopplad till servern och sänder ut data
 
@@ -46,7 +49,7 @@ DHT11 → ESP8266 (Arduino/C++) → HTTP → Python-server → CSV → HTTP → 
 ## Steg 2 – Starta Python-servern
 
 ```bash
-cd *servernamn*
+cd *servermappensnamn*
 python3 server.py
 ```
 
@@ -60,13 +63,14 @@ tillgänglig för frontend dvs i webbläsaren via HTTP.
 
 Sensor-data skickas som JSON:
 
-{
+```
   "temperature": 22.5,
   "humidity": 45,
   "timestamp": 20000
 }
 
----
+-
+```-
 ## Steg 3 – Frontend (Graf)
 
 * Öppna index.html i webbläsaren via localhost:*0000* (anges i terminalen)
