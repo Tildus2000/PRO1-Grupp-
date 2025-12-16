@@ -41,7 +41,6 @@ Sensorn skickar sensorvärden periodiskt via HTTP POST
 cd *servernamn*
 Python3 server.py
 ```
-servern:
 Servern är implementerad i Python 3 och körs lokalt.
 Den tar emot sensor-data via HTTP, sparar värden i en CSV-fil
 och gör datan tillgänglig för frontend via HTTP.
