@@ -12,13 +12,12 @@ Kod för Arduino IDE, HTML och Python finns som seprata filer i repot!
 
 ## Systemöversikt
 
-DHT11 → ESP8266 (Arduino/C++) → HTTP → Python-server → CSV → HTTP → HTML/JS-graf
+DHT11 → ESP8266 (Arduino/C++) → HTTP POST → Python-server → CSV → HTTP GET → HTML/JS-graf
 
 Systemet är uppbyggt kring en central server som fungerar som mellanhand.
-ESP8266 skickar sensor-data till servern via HTTP.
-Servern lagrar datan och gör den tillgänglig för frontend, som hämtar data via HTTP
+ESP8266 skickar sensor-data till servern via HTTP POST.
+Servern lagrar datan och gör den tillgänglig för frontend, som hämtar data via HTTP GET
 för visualisering i realtid.
-
 
 
 ---
