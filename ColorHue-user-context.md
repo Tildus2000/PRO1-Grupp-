@@ -5,8 +5,8 @@ Syftet med projektet är att skapa en luftfuktighetsmätare som kan mäta relati
 
 ## Användare och kontext:
 *  Vi har utgått från grupp 2 idé men valt ett annat område där en luftfuktighets sensor skulle kunna göra nytta.
-*  Våra användare är byggmålare och som målar utrymmen med hög luffuktighet och lägre temperatur såsom i en källare.
-*  Källare har ofta inte samma isolering eller värme som resterande delar av ett hus, det är även vanligt med ökad luftfutkighet på dessa ytor.
+*  Våra användare är byggmålare och som målar utrymmen med hög luffuktighet och eventuellt lägre temperatur såsom i en källare.
+*  Källare har ofta inte samma isolering eller värme som resterande delar av ett hus, vilket gör att det är vanligt med ökad luftfutkighet på dessa ytor.
 *  Temperatur och luftfuktighet har stor inverkarn på hur lång tid det tar för väggfärg att torka samt hur den torkar. Väggfärg från Alcro som är ett vanligt märke inom målarbranchen, fungerar optimalt i 23 garder celcius och 50% luftfuktighet. Då är färgen klibbfri inom 50 minuter och övermålningsbar inom 2 timmar. 
 *  Genom en luftfuktighets sensor kan målare få användbar information och kunskap som avögr hur de ska göra för att få bästa resultat.
 
