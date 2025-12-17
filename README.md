@@ -2,7 +2,7 @@
 
 Detta repository demonstrerar hur sensor-data kan samlas in från en DHT11-sensor via
 en ESP8266-microcontroller och skickas till en egenutvecklad Python-server, där datan
-visualiseras i realtid i en webbaserad graf.
+visualiseras i realtid i en webbaserad graf. 
 
 Projektet är uppdelat i firmware, backend och frontend.
 
@@ -30,10 +30,12 @@ för visualisering i realtid.
 | DHT11 | 1 | Temperatur & luftfuktighet |
 | Breadboard | 1 | Valfritt men rekommenderas |
 | Jumper wires | 3 | Koppling |
-| USB-kabel (USB-C) | 1 | För flashning |
-| Powerbank | 1 | För ström |
+| Female to male kablar | 3| valfritt |
+| USB-kabel (USB-C) | 1 | För flashning (& ström) |
+| Powerbank | 1 | valfritt - för att ge ström |
 
-Så här ska DHT11 och ESP8266 vara kopplad: *ska lägga in en bild*
+Så här ska DHT11 och ESP8266 vara kopplad 
+
 
 ---
 
