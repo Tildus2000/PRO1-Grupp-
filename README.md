@@ -20,6 +20,7 @@ Servern lagrar datan och gör den tillgänglig för frontend, som hämtar data v
 för visualisering i realtid.
 
 
+
 ---
 
 ## Bill of Materials (BOM)
