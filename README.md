@@ -30,7 +30,8 @@ för visualisering i realtid.
 | DHT11 | 1 | Temperatur & luftfuktighet |
 | Breadboard | 1 | Valfritt men rekommenderas |
 | Jumper wires | 3 | Koppling |
-| USB-kabel (USB-C) | 1 | För flashning och ström |
+| USB-kabel (USB-C) | 1 | För flashning |
+| Powerbank | 1 | För ström |
 
 Så här ska DHT11 och ESP8266 vara kopplad: *ska lägga in en bild*
 
@@ -38,7 +39,7 @@ Så här ska DHT11 och ESP8266 vara kopplad: *ska lägga in en bild*
 
 ## Steg 1 – Firmware (ESP8266)
 
-För att kunna koppla ESP8266 till WiFi behöver du ett nätverk som ger 2.4 GHz (2G). En annan modell/ nyare micro controller kan klara 5G)
+För att kunna koppla ESP8266 till WiFi behöver du ett nätverk som ger 2.4 GHz (2G). En annan modell/ nyare microcontroller kan klara 5G)
 
 1. Öppna firmware-koden i Arduino IDE
 2. Uppdatera följande värden i koden:
