@@ -37,6 +37,9 @@ för visualisering i realtid.
 Så här ska DHT11 och ESP8266 vara kopplad 
 
 
+<img src="IMG_1042.jpg" alt="ESP8266 koppling med DHT-sensor" width="500">
+
+
 ---
 
 ## Steg 1 – Firmware (ESP8266)
